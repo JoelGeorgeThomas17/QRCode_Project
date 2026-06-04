@@ -1,0 +1,7 @@
+numpy
+opencv-python
+qrcode
+qrcode[pil]
+pillow
+fastapi 
+uvicorn 
