@@ -228,7 +228,7 @@ npm run dev
 Frontend server:
 
 ```text
-http://localhost:3000
+http://localhost:5173
 ```
 
 ---
