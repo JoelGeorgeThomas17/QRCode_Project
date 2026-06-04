@@ -58,23 +58,34 @@ The application is designed for scenarios such as:
 project-root/
 │
 ├── backend/
+│   ├── Camera_init.py
+│   ├── encoding.py
+│   ├── Interface.py
+│   ├── ScanQR.py
 │   ├── main.py
-│   ├── camera.py
-│   ├── qr_detector.py
-│   ├── requirements.txt
 │   └── ...
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
-│   │   ├── App.js
-│   │   └── ...
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── Pages/
+|   │   │   ├── Camera.jsx
+|   │   │   ├── Create.jsx
+|   │   │   ├── HomePage.jsx
+|   │   │   ├── Scan.jsx
+|   │   │   ├── Upload.jsx 
 │   ├── package.json
 │   └── ...
 │
 ├── README.md
+├── Requirements.txt
 └── .gitignore
+|__
 ```
 
 ---
