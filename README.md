@@ -25,7 +25,6 @@ The application is designed for scenarios such as:
 - FastAPI REST API backend
 - React-based user interface
 - Live scan result updates
-- Cross-Origin Resource Sharing (CORS) support
 - Modular and scalable architecture
 - Easy deployment and configuration
 
@@ -36,10 +35,10 @@ The application is designed for scenarios such as:
 ### Frontend
 
 - React
+- Vite
 - JavaScript
 - HTML5
-- CSS3
-- Axios
+- CSS
 
 ### Backend
 
@@ -47,7 +46,6 @@ The application is designed for scenarios such as:
 - FastAPI
 - Uvicorn
 - OpenCV
-- PyZBar (or alternative QR decoding library)
 - NumPy
 
 ---
