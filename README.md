@@ -173,23 +173,15 @@ cd qr-code-system
 #### Windows
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv venv_name
+.\venv_name\Scripts\activate
 ```
-
-#### Linux / macOS
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
 ---
 
 ### Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 Example `requirements.txt`:
@@ -208,7 +200,7 @@ python-multipart
 ### Run Backend Server
 
 ```bash
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 ```
 
 Backend server:
@@ -216,22 +208,9 @@ Backend server:
 ```text
 http://localhost:8000
 ```
-
-API documentation:
-
-```text
-http://localhost:8000/docs
-```
-
 ---
 
 ## Frontend Setup
-
-Navigate to frontend directory:
-
-```bash
-cd frontend
-```
 
 Install dependencies:
 
@@ -239,10 +218,11 @@ Install dependencies:
 npm install
 ```
 
-Start development server:
+Start development server: From project root
 
 ```bash
-npm start
+cd my-app
+npm run dev
 ```
 
 Frontend server:
@@ -420,7 +400,7 @@ in the Software without restriction.
 
 ## Author
 
-**Your Name**
+**Joel George Thomas*
 
 Full-Stack Developer
 
